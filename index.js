@@ -17,7 +17,7 @@ function mondayWork(activity = "go to the office") {
 // wrapAdjective("*")
 
 const wrapAdjective = (style = "*") => {
-  return function (adjective = "special") {
-    return `You are ${style}${adjective}${style}!`;
+  return function (adj = "special") {
+    return `You are ${style}${adj}${style}!`;
   };
 };
